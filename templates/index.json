@@ -208,6 +208,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "165869690382e5af23": {
+      "type": "masonry",
+      "blocks": {
+        "f63c4f79-b5c1-481e-ac6a-9a1ae80c2ef0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/k-mitch-hodge-oQ9pECond48-unsplash.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f63c4f79-b5c1-481e-ac6a-9a1ae80c2ef0"
+      ],
+      "settings": {
+        "masonry-grid": ""
+      }
     }
   },
   "order": [
@@ -216,6 +233,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "165869690382e5af23"
   ]
 }
