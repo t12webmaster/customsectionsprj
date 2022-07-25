@@ -219,10 +219,19 @@
             "text": "Stonehenge",
             "url": "https:\/\/tee12.net"
           }
+        },
+        "89e881d6-ae83-45a0-99c5-5ed871d22c1a": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yaopey-yong-oDKyhEjOBfc-unsplash.jpg",
+            "text": "Beijing",
+            "url": "https:\/\/tee12.net"
+          }
         }
       },
       "block_order": [
-        "1f68f925-5eab-4743-9e00-e88db531b112"
+        "1f68f925-5eab-4743-9e00-e88db531b112",
+        "89e881d6-ae83-45a0-99c5-5ed871d22c1a"
       ],
       "settings": {
         "masonry-grid": ""
