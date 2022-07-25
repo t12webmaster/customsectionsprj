@@ -235,12 +235,21 @@
             "text": "Celtic Stone",
             "url": ""
           }
+        },
+        "24c90bab-5f04-4184-976b-dc33b7b5818b": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fabrice-villard-Jrl_UQcZqOc-unsplash_786bab2e-82ce-4b4f-9aa6-c5718c074df3.jpg",
+            "text": "Mystic Forest",
+            "url": "https:\/\/tee12.net"
+          }
         }
       },
       "block_order": [
         "1f68f925-5eab-4743-9e00-e88db531b112",
         "89e881d6-ae83-45a0-99c5-5ed871d22c1a",
-        "99cef6e5-5c16-4e1b-af84-5c7dbf09ed3c"
+        "99cef6e5-5c16-4e1b-af84-5c7dbf09ed3c",
+        "24c90bab-5f04-4184-976b-dc33b7b5818b"
       ],
       "settings": {
         "masonry-grid": ""
