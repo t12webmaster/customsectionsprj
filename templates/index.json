@@ -251,6 +251,14 @@
             "text": "Basilica",
             "url": ""
           }
+        },
+        "143bd017-850a-406b-a613-ea571e784bdd": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laura-vinck-Hyu76loQLdk-unsplash.jpg",
+            "text": "Shepard's Delight",
+            "url": "https:\/\/tee12.net"
+          }
         }
       },
       "block_order": [
@@ -258,7 +266,8 @@
         "89e881d6-ae83-45a0-99c5-5ed871d22c1a",
         "99cef6e5-5c16-4e1b-af84-5c7dbf09ed3c",
         "24c90bab-5f04-4184-976b-dc33b7b5818b",
-        "ff581e42-09d2-42a8-9642-370eb3049664"
+        "ff581e42-09d2-42a8-9642-370eb3049664",
+        "143bd017-850a-406b-a613-ea571e784bdd"
       ],
       "settings": {
         "masonry-grid": ""
