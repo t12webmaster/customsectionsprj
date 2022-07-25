@@ -1,11 +1,11 @@
 <!-- Masonry Grid Title -->
 <h2>{{ section.settings.masonry-grid }}</h2>
 <!-- Block Object -> Masonry Grid -->
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+<div class="masonry-grid">
     {% for block in section.blocks -%}
         <div class="grid-item">
             <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}">
-                <img src="{{ block.settings.image | img_url }}" alt="{{ block.settings.text }}">
+                <img src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.text }}">
             </a>
             <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}"></a>
                 <h3>{{ block.settings.text }}</h3>
@@ -62,5 +62,10 @@
   {% endstylesheet %}
 
   {% javascript %}
-    
+    var grid = document.querySelector('.masonry-grid');
+    var msnry = new Masonry( grid, {
+        // options...
+        itemSelector: '.grid-item',
+        columnWidth: 600
+    });
   {% endjavascript %}
