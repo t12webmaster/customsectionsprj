@@ -243,13 +243,22 @@
             "text": "Mystic Forest",
             "url": "https:\/\/tee12.net"
           }
+        },
+        "ff581e42-09d2-42a8-9642-370eb3049664": {
+          "type": "masonry-image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/francesco-bianco-TVsgRyKJDc0-unsplash.jpg",
+            "text": "Basilica",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "1f68f925-5eab-4743-9e00-e88db531b112",
         "89e881d6-ae83-45a0-99c5-5ed871d22c1a",
         "99cef6e5-5c16-4e1b-af84-5c7dbf09ed3c",
-        "24c90bab-5f04-4184-976b-dc33b7b5818b"
+        "24c90bab-5f04-4184-976b-dc33b7b5818b",
+        "ff581e42-09d2-42a8-9642-370eb3049664"
       ],
       "settings": {
         "masonry-grid": ""
