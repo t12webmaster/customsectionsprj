@@ -1,19 +1,18 @@
 <!-- Masonry Grid Title -->
 <h2>{{ section.settings.masonry-grid }}</h2>
 <!-- Block Object -> Masonry Grid -->
-{% for block in section.blocks -%}
-<!-- Image -->
-{{ block.settings.image }}
-<!-- Text -->
-{{ block.settings.text }}
-<!-- URL -->
-{{ block.settings.url }}
-{%- endfor -%}
-
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-    <div class="grid-item"></div>
-    <div class="grid-item"></div>
-  </div>
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'></div>
+    {% for block in section.blocks -%}
+        <div class="grid-item">
+            <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}">
+                <img src="{{ block.settings.image }}" alt="{{ block.settings.text }}">
+            </a>
+            <a href="{{ block.settings.url }}" alt="{{ block.settings.text }}"></a>
+                <h3>{{ block.settings.text }}</h3>
+            </a>
+        </div>
+    {%- endfor -%}
+</div>
 
   {% schema %}
   {
